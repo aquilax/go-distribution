@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/bradfordboyle/go-distribution/settings"
+	"github.com/aquilax/go-distribution/settings"
 )
 
 func TestLjust(t *testing.T) {

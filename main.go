@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/bradfordboyle/go-distribution/histogram"
-	"github.com/bradfordboyle/go-distribution/settings"
-	"github.com/bradfordboyle/go-distribution/tokenize"
+	"github.com/aquilax/go-distribution/histogram"
+	"github.com/aquilax/go-distribution/settings"
+	"github.com/aquilax/go-distribution/tokenize"
 )
 
 func main() {

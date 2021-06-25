@@ -1,3 +1,0 @@
-package: github.com/bradfordboyle/go-distribution
-import:
-- package: github.com/dustin/go-humanize
