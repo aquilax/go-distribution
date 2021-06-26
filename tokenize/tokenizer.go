@@ -47,7 +47,7 @@ func (p preTalliedTokenizer) Tokenize(reader io.Reader) (map[string]uint, error)
 		line := scanner.Text()
 		res := p.extractor.FindStringSubmatch(line)
 		key := res[p.keyIdx]
-		value, err := strconv.ParseUint(res[p.valueIdx], 10, 32)
+		value, err := strconv.ParseUint(res[p.valueIdx], 10, 64)
 		if err != nil {
 			return nil, err
 		}
