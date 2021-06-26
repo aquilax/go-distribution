@@ -114,6 +114,7 @@ func (h *Histogram) WriteHist(writer io.Writer, tokenCounts map[string]uint) {
 
 		if i == outputLimit-1 {
 			io.WriteString(writer, h.regularColor)
+			io.WriteString(writer, "\n")
 			break
 		} else {
 			io.WriteString(writer, h.keyColor)

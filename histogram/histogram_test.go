@@ -71,7 +71,7 @@ func TestHistogram_WriteHist(t *testing.T) {
 			name:     "PairList w/ two tokens",
 			args:     []string{RC_FILE, KV, WIDTH},
 			counts:   map[string]uint{"a": 1, "b": 2},
-			expected: "b|2 (66.67%) --\na|1 (33.33%) -",
+			expected: "b|2 (66.67%) --\na|1 (33.33%) -\n",
 		},
 	}
 
